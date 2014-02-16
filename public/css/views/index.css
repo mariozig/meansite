@@ -107,7 +107,20 @@ ol.unstyled {
 }
 #docs ul li a{
 color:#1b1b1b;
+padding: 0px 15px
 }
-nav .nav-docs{
+#docs ul li a:hover{
+  text-decoration: underline;
+  color:blue;
+}
+#docs ul li a span{
+  text-decoration: none;
+  color:#1b1b1b;
+}
+nav.nav-docs{
 position:fixed;
+}
+.infograph{
+    margin-top:20px;
+    float:right;
 }
