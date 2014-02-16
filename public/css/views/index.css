@@ -102,3 +102,12 @@ ol.unstyled {
   margin-left: 0;
   list-style: none;
 }
+#docs h3{
+	font-size:20px;
+}
+#docs ul li a{
+color:#1b1b1b;
+}
+nav .nav-docs{
+position:fixed;
+}
