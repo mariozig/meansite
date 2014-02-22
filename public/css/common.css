@@ -6,14 +6,22 @@ header {
     font-weight: bold;
 }
 .navbar .brand {
+    text-indent: 100px;
 	font-family: 'Quantico', sans-serif;
 	font-size:2em;
 	margin-top:5px;
+    width:116px;
+    height:66px;
 	float:left;
 	color:#fff;
- /*   background:url('/img/logos/logo-black.jpg') bottom;
+    position: absolute;
+    top:10;
+    background:url('/img/logos/meanlogo.png') bottom no-repeat;
+    background-size:50%;
 	z-index:1050;
-*/
+}
+.navbar .brand a{
+
 }
 .navbar-inner {
 background-color:#1b1b1b;
