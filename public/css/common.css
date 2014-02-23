@@ -145,4 +145,15 @@ margin-top:80px;
 
 .sidebar{ width:320px; float:right;}
 .sidebar .meandevelopment{margin-bottom:9px;height:125px;}
-.sidebar .meandevelopment a{background: url(../../img/ninja/mean-dev-button.png) no-repeat;}
+.sidebar .meandevelopment a{
+    background: url(../../img/ninja/mean-dev-button.png) no-repeat;
+    display:block;
+    width:210px;
+    height:80px;
+    color:white;
+    font-size: 23px;
+   /* font-family: $titleFont;*/
+    text-align: center;
+    padding-right:130px;
+    padding-top:55px;
+}
