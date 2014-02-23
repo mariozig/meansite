@@ -142,3 +142,7 @@ background-color:white;
 #docs .container {
 margin-top:80px;
 }
+
+#docs .inner-link-anchor{
+display: block; position: relative; top: -60px; visibility: hidden;
+}
