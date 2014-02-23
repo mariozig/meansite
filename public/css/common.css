@@ -148,16 +148,37 @@ margin-top:80px;
 #docs .inner-link-anchor{ display: block; position: relative; top: -60px; visibility: hidden; }
 
 .sidebar{ width:320px; float:right;}
-.sidebar .meandevelopment{margin-bottom:9px;height:125px;}
+.sidebar .meandevelopment{margin-top:-395px;margin-bottom:9px;height:125px;}
 .sidebar .meandevelopment a{
     background: url(../../img/ninja/mean-dev-button.png) no-repeat;
     display:block;
-    width:210px;
-    height:80px;
+    width:339px;
+    height:135px;
     color:white;
     font-size: 23px;
-   /* font-family: $titleFont;*/
     text-align: center;
     padding-right:130px;
     padding-top:55px;
 }
+.gettingstarted{
+width:700px;
+margin-bottom:100px;
+}
+.block{
+	margin-bottom:20px;
+	background:white;
+	box-shadow:5px 5px 0px darken($bgColor, 10%);
+}
+.block .block-title {
+      background:#006384 url(../../img/backgrounds/block-title-bg.jpg) no-repeat top right;
+      color:white;
+      font-family: 'Bitter',serif;
+      font-weight: 100;
+      position:relative;
+      font-size:17px;
+      padding:15px;
+      box-sizing: border-box;
+      margin: 0px;
+      line-height: 1;
+    }
+

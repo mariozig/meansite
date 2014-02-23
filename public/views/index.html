@@ -52,18 +52,21 @@
     <div style="clear:both;"></div>
 
     <div class="banner-twocolumn-start">
-        <div class="getting-started">
-        <section class="col-md-8 col-md-offset-2">
-        <p>Lorum Impsum</p>
-                <p>Lorum Impsum</p>
-        <p>Lorum Impsum</p>
-        <p>Lorum Impsum</p>
-
-        </section>
+    	<div class="container">
+				<div class="gettingstarted">
+<h2 class= "banner-technologies-title">To startup with MEAN follow the next steps...</h2>
+			<ol>
+				<li>Use git to clone the repository</li><pre><code>git clone http://github.com/linnovate/mean.git</code></pre>
+				<li>Enter the subdirectory that was created: <pre><code>cd mean</code></pre></li>
+				<li>Install MEAN.IO's dependencies by running:<pre><code> npm install</code></pre></li>
+				<li>To launch mean run: <pre><code>grunt</code></pre></li>
+			</ol>
+				</div>
         <aside class="sidebar" data-ng-controller="SideBarController">
             <div class="meandevelopment">
                 <a href="http://meanleanstartupmachine.com">Mean <span>Development</span></a>
             </div>
+<!--
             <div class="block newsletter">
                 <h2 class="block-title">Join our Newsletter</h2>
                 <div class="block-content">
@@ -77,13 +80,20 @@
                     </form>
                 </div>
             </div>
+-->
             <div class="block tweets">
                 <h2 class="block-title iconTwitter">#Mean Tweets</h2>
                 <div class="block-content">
-                    <div data-ng-include="'views/twitter.html'"></div>
+        					<div ng-show="twitterShow">
+
+<a class="twitter-timeline" href="https://twitter.com/search?q=mean.io" data-widget-id="437719172768739328">Tweets about "mean.io"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+									</div>
                 </div>
             </div>
         </aside>
-    </div>
-    <div style="clear:both;"></div>
+    	</div>
+		</div>
 </section>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
