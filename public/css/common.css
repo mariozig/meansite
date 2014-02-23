@@ -6,19 +6,19 @@ header {
     font-weight: bold;
 }
 .navbar .brand {
-	font-family: 'Quantico', sans-serif;
-    padding-left:20px;
-	font-size:2em;
-	margin-top:5px;
-    width:116px;
-    height:39px;
-	float:left;
-	color:#fff;
-    position: absolute;
-    top:10;
-    background:url('/img/logos/meanlogo.png') bottom left no-repeat;
-    background-size:30%;
-	z-index:1050;
+font-family: 'Quantico', sans-serif;
+padding-left:34px;
+font-size:2em;
+margin-top:5px;
+width:116px;
+height:39px;
+float:left;
+color:#fff;
+position: absolute;
+top:10;
+background:url('/img/logos/meanlogo.png') bottom left no-repeat;
+background-size:30%;
+z-index:1050;
 }
 
 .navbar-inner {
@@ -26,6 +26,10 @@ background-color:#1b1b1b;
 background-image: linear-gradient(to bottom, #222222, #111111);
 background-repeat: repeat-x;
 border-color: #252525;
+}
+
+.navbar-inner .btn {
+padding:0;
 }
 .navbar-nav{
 float:right;
