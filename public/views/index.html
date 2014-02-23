@@ -49,4 +49,41 @@
             </ul>
         </div>
     </div>
+    <div style="clear:both;"></div>
+
+    <div class="banner-twocolumn-start">
+        <div class="getting-started">
+        <section class="col-md-8 col-md-offset-2">
+        <p>Lorum Impsum</p>
+                <p>Lorum Impsum</p>
+        <p>Lorum Impsum</p>
+        <p>Lorum Impsum</p>
+
+        </section>
+        <aside class="sidebar" data-ng-controller="SideBarController">
+            <div class="meandevelopment">
+                <a href="http://meanleanstartupmachine.com">Mean <span>Development</span></a>
+            </div>
+            <div class="block newsletter">
+                <h2 class="block-title">Join our Newsletter</h2>
+                <div class="block-content">
+                    <p>signup and get updates on our development</p>
+                    <form id="signup-form" action="">
+                        <div class="input-form">
+                            <input type="text" placeholder="Email address" name="email-address" id="email-address" data-ng-model="email">
+                            <a id="signup-button" class="iconUntitled" title="signup" data-ng-click="addRecipient()"></a>
+                            <input type="submit" value="send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="block tweets">
+                <h2 class="block-title iconTwitter">#Mean Tweets</h2>
+                <div class="block-content">
+                    <div data-ng-include="'views/twitter.html'"></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <div style="clear:both;"></div>
 </section>

@@ -145,6 +145,8 @@ background-color:white;
 margin-top:80px;
 }
 
-#docs .inner-link-anchor{
-display: block; position: relative; top: -60px; visibility: hidden;
-}
+#docs .inner-link-anchor{ display: block; position: relative; top: -60px; visibility: hidden; }
+
+.sidebar{ width:320px; float:right;}
+.sidebar .meandevelopment{margin-bottom:9px;height:125px;}
+.sidebar .meandevelopment a{background: url(../../img/ninja/mean-dev-button.png) no-repeat;}
