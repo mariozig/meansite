@@ -39,7 +39,7 @@ color:#fff;
 }
 .navbar-nav li a:hover, .navbar-nav li a:active{
 text-decoration:underline;
-color:#1b1b1b;
+background-color:#007c95;
 }
 .content {
   /*  margin-top:40px; */

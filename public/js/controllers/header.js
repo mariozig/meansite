@@ -10,6 +10,12 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
         'title': 'Create New Article',
         'link': 'articles/create'
     }];
+
+
+    $scope.isActive = function (viewLocation) { 
+    	console.log('lior' + $location.path());
+        return viewLocation === $location.path();
+    };
     
     $scope.isCollapsed = false;
 }]);
