@@ -149,7 +149,7 @@ margin-top:50px;
 }
 
 #docs .inner-link-anchor{ display: block; position: relative; top: -60px; visibility: hidden; }
-#docs h2, .nav-docs h3 {
+#docs h2, .nav-docs h3.first {
     margin-top:40px;
 }
 .sidebar{ width:320px; float:right;}
