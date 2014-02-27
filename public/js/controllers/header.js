@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mean.system').controller('HeaderController', ['$scope', 'Global', function ($scope, Global) {
+angular.module('mean.system').controller('HeaderController', ['$scope', '$location', 'Global', function ($scope, $location, Global) {
     $scope.global = Global;
 
     $scope.menu = [{
@@ -12,10 +12,10 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
     }];
 
 
-    $scope.isActive = function (viewLocation) { 
-    	console.log('lior' + $location.path());
+    $scope.isActive = function (viewLocation) {
+        console.log('lior' + $location.path());
         return viewLocation === $location.path();
     };
-    
+
     $scope.isCollapsed = false;
 }]);
